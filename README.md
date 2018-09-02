@@ -89,7 +89,7 @@ plt.title('Number of ratings per genre');
 ```
 
 
-![png](output_5_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_5_0.png)
 
 
 # Year Made vs Rating by Genre
@@ -125,7 +125,7 @@ sns.heatmap(cory, annot=True)
 
 
 
-![png](output_7_1.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_7_1.png)
 
 
 
@@ -154,7 +154,7 @@ dat.columns = gens
 cory = dat.corr()
 mask = np.zeros_like(cory)
 mask[np.triu_indices_from(mask)] = True
-with sns.axes_output_("white"):
+with sns.axes_https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_("white"):
         plt.subplots(figsize=(10,7))
         sns.heatmap(cory, mask=mask, annot=True);
 
@@ -162,7 +162,7 @@ with sns.axes_output_("white"):
 ```
 
 
-![png](output_10_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_10_0.png)
 
 
 Standouts with higher correlation Action/Adventure, Thriller/Crime
@@ -174,7 +174,7 @@ ax = sns.heatmap(dat.fillna(dat.mean()));
 ```
 
 
-![png](output_12_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_12_0.png)
 
 
 
@@ -204,7 +204,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_13_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_13_0.png)
 
 
 
@@ -226,7 +226,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_14_0.png)
 
 
 
@@ -239,7 +239,7 @@ plt.title('Comparing trends in ratings');
 ```
 
 
-![png](output_15_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_15_0.png)
 
 
 
@@ -253,7 +253,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_16_0.png)
 
 
 # Exploring Tags
@@ -286,7 +286,7 @@ dd.head()
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -298,10 +298,10 @@ dd.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -373,7 +373,7 @@ p1.head(10)
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -385,10 +385,10 @@ p1.head(10)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -486,7 +486,7 @@ p2.head(10)
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -498,10 +498,10 @@ p2.head(10)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -674,7 +674,7 @@ dfy.head()
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -686,10 +686,10 @@ dfy.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>title</th>
       <th>Budget</th>
@@ -798,7 +798,7 @@ df_xy.head()
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -810,10 +810,10 @@ df_xy.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>movieId</th>
       <th>title</th>
@@ -924,7 +924,7 @@ sns.factorplot( y="Budget",
 ```
 
 
-![png](output_36_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_36_0.png)
 
 
 Movies rated 9.0 tend to be longer than the rest.
@@ -937,7 +937,7 @@ sns.factorplot( y="Runtime",
 ```
 
 
-![png](output_38_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_38_0.png)
 
 
 Box Plots:
@@ -952,7 +952,7 @@ sns.factorplot( y="UserRating",
 ```
 
 
-![png](output_40_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_40_0.png)
 
 
 Cheapest genres: Comedy, Documentary, Drama <br>
@@ -968,7 +968,7 @@ sns.factorplot( y="Budget",
 ```
 
 
-![png](output_42_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_42_0.png)
 
 
 To make things more workable, I divided content ratings into 5 groups with reference to MPAA standards, https://en.wikipedia.org/wiki/Motion_Picture_Association_of_America_film_rating_system<br>
@@ -996,7 +996,7 @@ sns.factorplot( y="Budget",
 ```
 
 
-![png](output_45_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_45_0.png)
 
 
 
@@ -1016,7 +1016,7 @@ plt.ylim(4,9)
 
 
 
-![png](output_46_1.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_46_1.png)
 
 
 # Pairplot
@@ -1032,7 +1032,7 @@ sns.pairplot(df_xtest22, hue='genres');
 ```
 
 
-![png](output_49_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_49_0.png)
 
 
 Hard to see anything with so many genres/colours, let's trim them down a bit:
@@ -1054,7 +1054,7 @@ sns.pairplot(df_g, hue='genres');
 
 
 
-![png](output_51_1.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_51_1.png)
 
 
 
@@ -1073,7 +1073,7 @@ df_xtest22.head()
 
 
 <div>
-<output_>
+<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -1085,10 +1085,10 @@ df_xtest22.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</output_>
+</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr output_="text-align: right;">
+    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
       <th></th>
       <th>Budget</th>
       <th>Runtime</th>
@@ -1164,7 +1164,7 @@ plt.legend(loc=(1.05,0), ncol=2);
 ```
 
 
-![png](output_54_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_54_0.png)
 
 
 Looking for correlation between Budget and Runtime
@@ -1175,7 +1175,7 @@ sns.jointplot( x='Budget', y='Runtime', data=df_xtest22, kind='kde');
 ```
 
 
-![png](output_56_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_56_0.png)
 
 
 Budget vs Runtime (Animation)
@@ -1189,7 +1189,7 @@ sns.jointplot( x='Budget', y='UserRating', data=anim_mov, kind='reg');
 ```
 
 
-![png](output_58_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_58_0.png)
 
 
 Budget vs Runtime (Horror Movies)
@@ -1200,7 +1200,7 @@ sns.jointplot( x='Budget', y='UserRating', data=hor_mov, kind='reg');
 ```
 
 
-![png](output_60_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_60_0.png)
 
 
 Animation movies seemed to have a higher corrrelation than Horror
@@ -1217,7 +1217,7 @@ g = sns.factorplot('UserRating', col="genres", col_wrap=8,
 ```
 
 
-![png](output_63_0.png)
+![png](https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_63_0.png)
 
 
 
