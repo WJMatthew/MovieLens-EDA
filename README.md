@@ -154,7 +154,7 @@ dat.columns = gens
 cory = dat.corr()
 mask = np.zeros_like(cory)
 mask[np.triu_indices_from(mask)] = True
-with sns.axes_https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_("white"):
+with sns.axes_style("white"):
         plt.subplots(figsize=(10,7))
         sns.heatmap(cory, mask=mask, annot=True);
 
@@ -286,22 +286,10 @@ dd.head()
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -373,22 +361,10 @@ p1.head(10)
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -486,22 +462,10 @@ p2.head(10)
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>tag</th>
       <th>rating_mean</th>
@@ -674,22 +638,10 @@ dfy.head()
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>title</th>
       <th>Budget</th>
@@ -798,22 +750,10 @@ df_xy.head()
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>movieId</th>
       <th>title</th>
@@ -1073,22 +1013,10 @@ df_xtest22.head()
 
 
 <div>
-<https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_>
 <table border="1" class="dataframe">
   <thead>
-    <tr https://github.com/WJMatthew/MovieLens-EDA/blob/master/images/output_="text-align: right;">
+    <tr style="text-align: right;">
       <th></th>
       <th>Budget</th>
       <th>Runtime</th>
